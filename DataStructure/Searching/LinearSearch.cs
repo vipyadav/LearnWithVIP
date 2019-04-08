@@ -18,6 +18,9 @@ namespace Searching
     }
 }
 
+// Time complexity of Linear search algorithm is O(n)
+
+
 /*
  *  Complexity of algorithm
  *

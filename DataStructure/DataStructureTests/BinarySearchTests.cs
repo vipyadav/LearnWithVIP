@@ -12,7 +12,7 @@ namespace DataStructureTests
         {
             int[] arr = { 5, 9, 13, 18, 23, 28, 43, 85, 89 };
             var length = arr.Length;
-            var searchItem = 43;
+            const int searchItem = 43;
 
             var result = BinarySearch.RecursiveBinarySearch(arr, 0, length - 1, searchItem);
 
@@ -29,7 +29,7 @@ namespace DataStructureTests
         {
             int[] arr = { 5, 9, 13, 18, 23, 28, 43, 85, 89 };
             var length = arr.Length;
-            var searchItem = 2;
+            const int searchItem = 2;
 
             var result = BinarySearch.RecursiveBinarySearch(arr, 0, length - 1, searchItem);
 
@@ -45,8 +45,8 @@ namespace DataStructureTests
         public void IterativeBinarySearch_ElementFound()
         {
             int[] arr = { 3, 7, 9, 15, 21, 26, 32, 45, 53, 72 };
-            int searchItem = 9;
-            int result = BinarySearch.IterativeBinarySearch(arr, searchItem);
+            const int searchItem = 9;
+            var result = BinarySearch.IterativeBinarySearch(arr, searchItem);
             if (result == -1)
                 Debug.WriteLine("Item is not found.");
             else
@@ -60,8 +60,8 @@ namespace DataStructureTests
         public void TestIterativeBinarySearch_ElementNotFound()
         {
             int[] arr = { 3, 7, 9, 15, 21, 26, 32, 45, 53, 72 };
-            int searchItem = 10;
-            int result = BinarySearch.IterativeBinarySearch(arr, searchItem);
+            const int searchItem = 10;
+            var result = BinarySearch.IterativeBinarySearch(arr, searchItem);
             if (result == -1)
                 Debug.WriteLine("Item is not found.");
             else
