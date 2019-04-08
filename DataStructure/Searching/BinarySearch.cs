@@ -42,3 +42,10 @@ namespace Searching
     }
 }
 
+/*
+ *  SN	Performance	                    Complexity
+    1	Worst case	                    O(log n)
+    2	Best case	                    O(1)
+    3	Average Case	                O(log n)
+    4	Worst case space complexity	    O(1)
+ */
