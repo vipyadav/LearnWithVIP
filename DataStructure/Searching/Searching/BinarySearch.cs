@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Searching
+namespace LearnWithVIP.DataStructure.Searching
 {
     public class BinarySearch
     {

@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Searching\Searching.csproj" />
-    <ProjectReference Include="..\Sorting\Sorting.csproj" />
+    <ProjectReference Include="..\..\Common\Common\Common.csproj" />
+    <ProjectReference Include="..\Searching\DataStructure.csproj" />
   </ItemGroup>
 
 </Project>

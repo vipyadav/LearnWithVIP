@@ -1,9 +1,9 @@
 using System;
 using System.Diagnostics;
-using Searching;
+using LearnWithVIP.DataStructure.Searching;
 using Xunit;
 
-namespace DataStructureTests
+namespace LearnWithVIP.DataStructureTests
 {
     public class LinearSearchTests
     {
