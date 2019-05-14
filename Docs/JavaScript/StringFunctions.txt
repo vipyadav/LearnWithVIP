@@ -1,0 +1,42 @@
+------- String split() Method--------
+
+Syntax :-  string.split(separator, limit)
+
+Example : Separate each character, including white-space:
+			
+			var str = "1234";
+			var res = str.split("");
+
+		Output: 1,2,3,4
+
+
+------- String join() Method--------
+
+*	The join() method joins the elements of an array into a string, and returns the string.
+	The elements will be separated by a specified separator. The default separator is comma (,).
+
+Example :
+
+var elements = ['Fire', 'Air', 'Water'];
+
+console.log(elements.join());
+// expected output: "Fire,Air,Water"
+
+console.log(elements.join(''));
+// expected output: "FireAirWater"
+
+console.log(elements.join('-'));
+// expected output: "Fire-Air-Water"
+
+
+function reverseString(s) {
+
+    try {
+        var r = s.split("").reverse().join("");
+        console.log(r);
+}
+    catch (err) {
+        console.log(err.message);
+        console.log(s);
+ }
+

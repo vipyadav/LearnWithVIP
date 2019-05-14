@@ -1,0 +1,15 @@
+----------Working with regular expressions----------
+
+--A great tool for testing and for explaination of any Regex is below: 
+https://regex101.com/
+
+Examples: 
+
+1. Match the same start and end character of a string with Regex
+
+ var RegExp = /^([aeiou]).*\1$/;
+
+ * It must match a string that starts and ends with the same vowel (i.e., {a, e, i, o, u})
+
+
+     
