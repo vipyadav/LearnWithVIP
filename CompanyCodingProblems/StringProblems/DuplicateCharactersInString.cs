@@ -16,21 +16,14 @@ namespace LearnWithVIP.CodingProblems.StringProblems
 
         public static string RemoveDuplicateChars(string str)
         {
-            // --- Removes duplicate chars using string concats. ---
-            // Store encountered letters in this string.
-            string table = "";
-
-            // Store the result in this string.
             string result = "";
 
             // Loop over each character.
             foreach (char ch in str)
             {
                 // See if character is in the table.
-                if (table.IndexOf(ch) == -1)
+                if (result.IndexOf(ch) == -1)
                 {
-                    // Append to the table and the result.
-                    table += ch;
                     result += ch;
                 }
             }
