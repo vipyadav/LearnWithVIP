@@ -54,6 +54,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "DesignPatt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "DesignPatterns\CreationalDesignPatterns\AbstractFactory\AbstractFactory.csproj", "{486826BB-3F72-4378-A73E-7CF344B0D998}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "TrickyOutput\Inheritance\Inheritance.csproj", "{EF7687DB-0189-4A55-96B1-BFF424A60FE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -112,6 +114,10 @@ Global
 		{486826BB-3F72-4378-A73E-7CF344B0D998}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{486826BB-3F72-4378-A73E-7CF344B0D998}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{486826BB-3F72-4378-A73E-7CF344B0D998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF7687DB-0189-4A55-96B1-BFF424A60FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7687DB-0189-4A55-96B1-BFF424A60FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7687DB-0189-4A55-96B1-BFF424A60FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7687DB-0189-4A55-96B1-BFF424A60FE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -132,6 +138,7 @@ Global
 		{D52B20E3-0963-442E-836D-87D03C40AC0C} = {751177EE-6860-4576-80D9-BF860DBE4631}
 		{241EA4F0-6B8E-436C-B9BC-4FAACABAFFB1} = {751177EE-6860-4576-80D9-BF860DBE4631}
 		{486826BB-3F72-4378-A73E-7CF344B0D998} = {751177EE-6860-4576-80D9-BF860DBE4631}
+		{EF7687DB-0189-4A55-96B1-BFF424A60FE5} = {A6C4F343-EA4A-4567-B34E-17A1579C2D23}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A85673B-2DCB-4CD3-A2FB-15954019A401}
