@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EnumEx.cs" />
+    <Compile Include="ForeachDistinction.cs" />
     <Compile Include="ParseOrConvert.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
