@@ -42,8 +42,15 @@
   <ItemGroup>
     <Compile Include="EnumEx.cs" />
     <Compile Include="ForeachDistinction.cs" />
+    <Compile Include="IEnumerableEx.cs" />
     <Compile Include="ParseOrConvert.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Models\Models.csproj">
+      <Project>{8AB1D29C-19CC-41F7-818B-1A2F777C2ABB}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

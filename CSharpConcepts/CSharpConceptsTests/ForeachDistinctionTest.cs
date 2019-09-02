@@ -12,5 +12,12 @@ namespace LearnWithVIP.CSharpConceptsTests
             var obj = new ForeachDistinction();
             obj.DisplayItems();
         }
+
+        [Fact]
+        public void Test2()
+        {
+            var obj = new IEnumerableEx();
+            obj.GetCars();
+        }
     }
 }
