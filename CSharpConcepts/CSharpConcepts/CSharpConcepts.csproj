@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="EnumEx.cs" />
     <Compile Include="ForeachDistinction.cs" />
+    <Compile Include="IComparableAndIComparer.cs" />
     <Compile Include="IEnumerableEx.cs" />
     <Compile Include="ParseOrConvert.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

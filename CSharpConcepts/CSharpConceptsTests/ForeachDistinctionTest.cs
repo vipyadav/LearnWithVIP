@@ -19,5 +19,12 @@ namespace LearnWithVIP.CSharpConceptsTests
             var obj = new IEnumerableEx();
             obj.GetCars();
         }
+
+        [Fact]
+        public void Test3()
+        {
+            var obj = new IComparableAndIComparer();
+            obj.RunExample();
+        }
     }
 }
