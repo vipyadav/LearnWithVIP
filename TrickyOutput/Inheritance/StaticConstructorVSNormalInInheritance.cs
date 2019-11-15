@@ -30,9 +30,9 @@ namespace LearnWithVIP.Inheritance
         }
     }
 
-    public class StaticConstructorVSNormalInInheritance
+    public static class StaticConstructorVSNormalInInheritance
     {
-       public void Test()
+       public static void Execute()
         {
             var derived = new Derived();
         }
