@@ -70,6 +70,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Threading", "Threading", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoResetEventEx", "Threading\AutoResetEventEx\AutoResetEventEx.csproj", "{F294DE12-D3FE-4531-9F86-130CB019365D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorExWithOddEvenSequence", "Threading\MonitorExWithOddEvenSequence\MonitorExWithOddEvenSequence.csproj", "{CBB21B21-A58C-4B8F-B4C9-9CB510D58C6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -148,6 +150,10 @@ Global
 		{F294DE12-D3FE-4531-9F86-130CB019365D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F294DE12-D3FE-4531-9F86-130CB019365D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F294DE12-D3FE-4531-9F86-130CB019365D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB21B21-A58C-4B8F-B4C9-9CB510D58C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB21B21-A58C-4B8F-B4C9-9CB510D58C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB21B21-A58C-4B8F-B4C9-9CB510D58C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB21B21-A58C-4B8F-B4C9-9CB510D58C6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -174,6 +180,7 @@ Global
 		{D52B20E3-0963-442E-836D-87D03C40AC0C} = {CF1CAD0D-30F4-4366-8C51-B025F03001AA}
 		{CFE5BB81-6FA9-46C6-913B-BAC35B2CBEA5} = {B21D20ED-7B86-4E12-A84B-5D03FD94A417}
 		{F294DE12-D3FE-4531-9F86-130CB019365D} = {32BB194F-7665-4018-9960-FFBC45231FCB}
+		{CBB21B21-A58C-4B8F-B4C9-9CB510D58C6A} = {32BB194F-7665-4018-9960-FFBC45231FCB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A85673B-2DCB-4CD3-A2FB-15954019A401}
