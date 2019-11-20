@@ -72,6 +72,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoResetEventEx", "Threadi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorExWithOddEvenSequence", "Threading\MonitorExWithOddEvenSequence\MonitorExWithOddEvenSequence.csproj", "{CBB21B21-A58C-4B8F-B4C9-9CB510D58C6A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralDesignPatterns", "BehavioralDesignPatterns", "{9AE4F390-BDAC-4945-8923-EB6E118B01E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorEx", "DesignPatterns\BehavioralDesignPatterns\MediatorEx\MediatorEx.csproj", "{65558963-937C-4631-9E80-A1E850A1142B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -154,6 +158,10 @@ Global
 		{CBB21B21-A58C-4B8F-B4C9-9CB510D58C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBB21B21-A58C-4B8F-B4C9-9CB510D58C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBB21B21-A58C-4B8F-B4C9-9CB510D58C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65558963-937C-4631-9E80-A1E850A1142B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65558963-937C-4631-9E80-A1E850A1142B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65558963-937C-4631-9E80-A1E850A1142B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65558963-937C-4631-9E80-A1E850A1142B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,6 +189,8 @@ Global
 		{CFE5BB81-6FA9-46C6-913B-BAC35B2CBEA5} = {B21D20ED-7B86-4E12-A84B-5D03FD94A417}
 		{F294DE12-D3FE-4531-9F86-130CB019365D} = {32BB194F-7665-4018-9960-FFBC45231FCB}
 		{CBB21B21-A58C-4B8F-B4C9-9CB510D58C6A} = {32BB194F-7665-4018-9960-FFBC45231FCB}
+		{9AE4F390-BDAC-4945-8923-EB6E118B01E8} = {E0166828-8E3F-49D3-BBAB-F6EC82712AEF}
+		{65558963-937C-4631-9E80-A1E850A1142B} = {9AE4F390-BDAC-4945-8923-EB6E118B01E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A85673B-2DCB-4CD3-A2FB-15954019A401}
