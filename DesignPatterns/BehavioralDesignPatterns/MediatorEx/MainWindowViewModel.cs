@@ -45,7 +45,7 @@ namespace MediatorEx
             var user = new User { Name = Name };
             Users.Add(user);
 
-            Mediator.Instance.SendMessage("AddNewUser", user);
+            Mediator<User>.Instance.SendMessage("AddNewUser", user);
         }
     }
 }

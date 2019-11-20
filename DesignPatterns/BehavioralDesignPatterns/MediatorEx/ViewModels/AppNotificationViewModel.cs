@@ -12,12 +12,11 @@ namespace MediatorEx.ViewModels
     {
         public AppNotificationViewModel()
         {
-            Mediator.Instance.Register("AddNewUser", OnNewUserAdded);
+            Mediator<User>.Instance.Register("AddNewUser", OnNewUserAdded);
         }
 
-        private void OnNewUserAdded(object _user)
+        private void OnNewUserAdded(User user)
         {
-            var user = _user as User;
             Message = "Hey, I am send App Notification to new user whoese my name is " + user.Name;
         }
 

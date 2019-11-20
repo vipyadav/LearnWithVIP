@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace MediatorEx
 {
-    public sealed class Mediator
+    public sealed class Mediator<T> : IMediator<T>
     {
-        private static Mediator instance = new Mediator();
+        private static Mediator<T> instance = new Mediator<T>();
 
-        private readonly Dictionary<string, List<Action<object>>> callbacks
-            = new Dictionary<string, List<Action<object>>>();
+        private readonly Dictionary<string, List<Action<T>>> ColleagueList 
+            = new Dictionary<string, List<Action<T>>>();
 
         private Mediator() { }
 
-        public static Mediator Instance
+        public static Mediator<T> Instance
         {
             get
             {
@@ -23,29 +23,29 @@ namespace MediatorEx
             }
         }
 
-        public void Register(string id, Action<object> callback)
+        public void Register(string id, Action<T> callback)
         {
-            if (!callbacks.ContainsKey(id))
+            if (!ColleagueList .ContainsKey(id))
             {
-                callbacks[id] = new List<Action<object>>();
+                ColleagueList [id] = new List<Action<T>>();
             }
 
-            callbacks[id].Add(callback);
+            ColleagueList[id].Add(callback);
         }
 
-        public void Unregister(string id, Action<object> callback)
+        public void Unregister(string id, Action<T> callback)
         {
-            callbacks[id].Remove(callback);
+            ColleagueList [id].Remove(callback);
 
-            if (callbacks[id].Count == 0)
+            if (ColleagueList [id].Count == 0)
             {
-                callbacks.Remove(id);
+                ColleagueList.Remove(id);
             }
         }
 
-        public void SendMessage(string id, object message)
+        public void SendMessage(string id, T parameter)
         {
-            callbacks[id].ForEach(action => action(message));
+            ColleagueList [id].ForEach(action => action(parameter));
         }
     }
 }
