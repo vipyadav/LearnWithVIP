@@ -17,9 +17,7 @@ namespace MediatorEx
 
         public MainWindowViewModel()
         {
-            //Mediator.Instance.Register("", new UserViewModel());
-
-            Users = new ObservableCollection<User>();
+           Users = new ObservableCollection<User>();
            AddNewUserCommand = new RelayCommand(x => AddNewUser());
         }
 
@@ -30,21 +28,12 @@ namespace MediatorEx
             set { name = value; NotifyPropertyChanged(); }
         }
 
-        private string address;
-        public string Address
-        {
-            get { return address; }
-            set { address = value; RaisePropertyChanged(() => Address); }
-        }
-
         public ObservableCollection<User> Users { get; set; }
-
 
         private void AddNewUser()
         {
             var user = new User { Name = Name };
             Users.Add(user);
-
             Mediator<User>.Instance.SendMessage("AddNewUser", user);
         }
     }
