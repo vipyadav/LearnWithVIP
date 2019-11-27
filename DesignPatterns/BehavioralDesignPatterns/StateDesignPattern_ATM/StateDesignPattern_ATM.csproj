@@ -47,6 +47,7 @@
     <Compile Include="CardInsertedState.cs" />
     <Compile Include="CardNotInsertedState.cs" />
     <Compile Include="IATMState.cs" />
+    <Compile Include="NoCashState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

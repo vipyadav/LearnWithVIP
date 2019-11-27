@@ -27,7 +27,7 @@ namespace StateDesignPattern_ATM
 
         public void EjectCard()
         {
-            Console.WriteLine("You cannot eject the Cardo, as no Card in ATM Machine slot");
+            Console.WriteLine("You cannot eject the Card, as no Card in ATM Machine slot");
             // Card has been ejected so internal state of ATM Machine has been changed to 'CardNotInsertedState'
             if (Context.CurrentATMState is CardInsertedState)
             {
@@ -42,7 +42,7 @@ namespace StateDesignPattern_ATM
             Console.WriteLine("you cannot enter the pin, as No Card in ATM Machine slot");
         }
 
-        public void WithdrawMoney()
+        public void WithdrawCash()
         {
             Console.WriteLine("you cannot withdraw money, as No Card in ATM Machine slot");
         }

@@ -6,7 +6,7 @@ namespace StateDesignPattern_ATM
         void InsertCard();
         void EjectCard();
         void EnterPin();
-        void WithdrawMoney();
+        void WithdrawCash();
     }
 
 }

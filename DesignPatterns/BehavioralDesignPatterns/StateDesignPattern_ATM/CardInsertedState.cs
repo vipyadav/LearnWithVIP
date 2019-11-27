@@ -41,9 +41,20 @@ namespace StateDesignPattern_ATM
         {
             Console.WriteLine("Pin number has been entered correctly");
         }
-        public void WithdrawMoney()
+
+        public void WithdrawCash()
         {
-            Console.WriteLine("Money has been withdrawn");
+            if (Context.CashInMachine > 0)
+            {
+                Context.CashInMachine = 0;
+                Context.CurrentATMState = Context.NoCashState;
+                Console.WriteLine("Rs. 5,000.00 has been withdrawn.");
+            }  
+            else
+            {
+                Console.WriteLine("You don't have cash available.");
+                Context.CurrentATMState = Context.NoCashState;
+            }
         }
     }
 
