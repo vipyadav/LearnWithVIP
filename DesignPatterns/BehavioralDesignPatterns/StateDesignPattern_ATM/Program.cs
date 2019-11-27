@@ -10,7 +10,7 @@ namespace StateDesignPattern_ATM
             ATMMachineContext atmMachine = new ATMMachineContext();
 
             Console.WriteLine("ATM Machine Current state : "
-                            + atmMachine.atmMachineState.GetType().Name);
+                            + atmMachine.CurrentATMState.GetType().Name);
             Console.WriteLine();
             atmMachine.EnterPin();
             atmMachine.WithdrawMoney();
@@ -22,7 +22,7 @@ namespace StateDesignPattern_ATM
             // Card has been inserted so internal state of ATM Machine
             // has been changed to CardInsertedState
             Console.WriteLine("ATM Machine Current state : "
-                            + atmMachine.atmMachineState.GetType().Name);
+                            + atmMachine.CurrentATMState.GetType().Name);
             Console.WriteLine();
             atmMachine.EnterPin();
             atmMachine.WithdrawMoney();
@@ -32,7 +32,7 @@ namespace StateDesignPattern_ATM
             // Card has been ejected so internal state of ATM Machine
             // has been changed to CardNotInsertedState
             Console.WriteLine("ATM Machine Current state : "
-                            + atmMachine.atmMachineState.GetType().Name);
+                            + atmMachine.CurrentATMState.GetType().Name);
             Console.Read();
 
         }
