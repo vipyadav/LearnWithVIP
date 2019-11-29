@@ -8,5 +8,5 @@ namespace StateDesignPattern_ATM
         void EnterPin();
         void WithdrawCash();
     }
-
+  
 }

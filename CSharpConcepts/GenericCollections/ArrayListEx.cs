@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GenericCollections
 {
-    class ArrayListEx
+    public class ArrayListEx
     {
+
     }
 }
