@@ -8,8 +8,7 @@ namespace StateDesignPattern_CarChangingGears
 
         public override string ToString()
         {
-            String str = "Car is in " + gearNumber + " gear.";
-            return str;
+            return "Car is in " + gearNumber + " gear.";
         }
 
         public void ChangeGear()
@@ -20,13 +19,9 @@ namespace StateDesignPattern_CarChangingGears
         public void Accelarate(int speed)
         {
             if (speed > 20)
-            {
                Console.WriteLine("Can not be accelarated to " + speed + " kmph in gear 1");
-            }
             else
-            {
                 Console.WriteLine("Car is running at " + speed + " kmph in gear 1");
-            }
         }
     }
 }

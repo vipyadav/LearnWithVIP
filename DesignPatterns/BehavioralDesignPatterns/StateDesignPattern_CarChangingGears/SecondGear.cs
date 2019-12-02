@@ -8,8 +8,7 @@ namespace StateDesignPattern_CarChangingGears
 
         public override string ToString()
         {
-            String str = "Car is in " + gearNumber + " gear.";
-            return str;
+            return "Car is in " + gearNumber + " gear.";
         }
 
         public void ChangeGear()

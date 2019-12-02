@@ -9,13 +9,9 @@ namespace StateDesignPattern_CarChangingGears
         public void Accelarate(int speed)
         {
             if (null == Gear)
-            {
                 Console.WriteLine("Car can not be accelarated as its in Neutral");
-            }
             else
-            {
                 Gear.Accelarate(speed);
-            }
         }
 
         public void ChangeGear()
