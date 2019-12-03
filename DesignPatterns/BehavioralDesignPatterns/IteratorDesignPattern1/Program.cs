@@ -18,7 +18,6 @@ namespace IteratorDesignPattern1
             // Create iterator
             IIterator iterator = channels.CreateIterator();
 
-            //looping iterator      
             Console.WriteLine("============ For loop ===========================");
 
             for (FMRadio radio = iterator.First(); !iterator.IsDone; radio = iterator.Next())
@@ -30,11 +29,11 @@ namespace IteratorDesignPattern1
 
             iterator = channels.CreateIterator(); // Here We can use Reset() method of Iterator
 
+            FMRadio fMChannel = iterator.First();
             while (!iterator.IsDone)
             {
-                FMRadio radio = iterator.Current;
-                Console.WriteLine($"FM Radio Name : {radio.Name} & Frequency : {radio.Frequency}");
-                iterator.Next();
+                Console.WriteLine($"FM Radio Name : {fMChannel.Name} & Frequency : {fMChannel.Frequency}");
+                fMChannel = iterator.Next();
             }
 
             Console.ReadKey();

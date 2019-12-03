@@ -22,10 +22,7 @@ namespace IteratorDesignPattern1
             radioStationList.Remove(channel);
         }
 
-        public int Count
-        {
-            get { return radioStationList.Count; }
-        }
+        public int Count => radioStationList.Count;
 
         public FMRadio this[int index]
         {

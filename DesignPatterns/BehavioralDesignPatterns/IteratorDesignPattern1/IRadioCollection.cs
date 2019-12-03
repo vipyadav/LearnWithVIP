@@ -4,9 +4,9 @@ namespace IteratorDesignPattern1
     // Also can call IAggregate
     public interface IRadioCollection
     {
-        void AddChannel(FMRadio c);
+        void AddChannel(FMRadio channel);
 
-        void RemoveChannel(FMRadio c);
+        void RemoveChannel(FMRadio channel);
 
         IIterator CreateIterator();
         FMRadio this[int itemIndex] { set; get; }

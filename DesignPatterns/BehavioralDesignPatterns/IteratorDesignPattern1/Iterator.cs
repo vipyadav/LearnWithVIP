@@ -12,16 +12,7 @@ namespace IteratorDesignPattern1
         }
 
         public FMRadio Current => radioStationList[currentIndex];
-
-        public bool IsDone
-        {
-            get
-            {
-                if (currentIndex < radioStationList.Count)
-                    return false;
-                return true;
-            }
-        }
+        public bool IsDone => !(currentIndex < radioStationList.Count);
 
         public FMRadio First()
         {
@@ -32,10 +23,7 @@ namespace IteratorDesignPattern1
         public FMRadio Next()
         {
             currentIndex++;
-            if (IsDone == false)
-                return radioStationList[currentIndex];
-            else
-                return null;
+            return (IsDone == false) ? radioStationList[currentIndex] : null;
         }
     }
 }
