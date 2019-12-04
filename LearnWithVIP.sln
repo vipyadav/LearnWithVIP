@@ -96,6 +96,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorDesignPattern1", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpVersionIteratorDesignPattern", "DesignPatterns\BehavioralDesignPatterns\CSharpVersionIteratorDesignPattern\CSharpVersionIteratorDesignPattern.csproj", "{3AA444A0-6C5A-4148-A9D8-EE059E23D878}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForegroundVsBackgroundThread", "Threading\ForegroundVsBackgroundThread\ForegroundVsBackgroundThread.csproj", "{14DCC74A-FCDA-4A8D-B7C2-AE294BA57CD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -222,6 +224,10 @@ Global
 		{3AA444A0-6C5A-4148-A9D8-EE059E23D878}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AA444A0-6C5A-4148-A9D8-EE059E23D878}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AA444A0-6C5A-4148-A9D8-EE059E23D878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14DCC74A-FCDA-4A8D-B7C2-AE294BA57CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DCC74A-FCDA-4A8D-B7C2-AE294BA57CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14DCC74A-FCDA-4A8D-B7C2-AE294BA57CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14DCC74A-FCDA-4A8D-B7C2-AE294BA57CD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -261,6 +267,7 @@ Global
 		{49F0C461-AA0A-450B-AC2D-B8CC28DE6548} = {32BB194F-7665-4018-9960-FFBC45231FCB}
 		{9326AA27-AA72-4ABD-9C9A-E82B2650C7DD} = {9AE4F390-BDAC-4945-8923-EB6E118B01E8}
 		{3AA444A0-6C5A-4148-A9D8-EE059E23D878} = {9AE4F390-BDAC-4945-8923-EB6E118B01E8}
+		{14DCC74A-FCDA-4A8D-B7C2-AE294BA57CD9} = {32BB194F-7665-4018-9960-FFBC45231FCB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A85673B-2DCB-4CD3-A2FB-15954019A401}
