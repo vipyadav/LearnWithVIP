@@ -98,6 +98,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpVersionIteratorDesign
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForegroundVsBackgroundThread", "Threading\ForegroundVsBackgroundThread\ForegroundVsBackgroundThread.csproj", "{14DCC74A-FCDA-4A8D-B7C2-AE294BA57CD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarbageCollection", "CSharpConcepts\GarbageCollection\GarbageCollection.csproj", "{13AAE898-08DF-4581-8F3C-1C0CFF33C5C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -228,6 +230,10 @@ Global
 		{14DCC74A-FCDA-4A8D-B7C2-AE294BA57CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14DCC74A-FCDA-4A8D-B7C2-AE294BA57CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14DCC74A-FCDA-4A8D-B7C2-AE294BA57CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13AAE898-08DF-4581-8F3C-1C0CFF33C5C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13AAE898-08DF-4581-8F3C-1C0CFF33C5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13AAE898-08DF-4581-8F3C-1C0CFF33C5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13AAE898-08DF-4581-8F3C-1C0CFF33C5C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -268,6 +274,7 @@ Global
 		{9326AA27-AA72-4ABD-9C9A-E82B2650C7DD} = {9AE4F390-BDAC-4945-8923-EB6E118B01E8}
 		{3AA444A0-6C5A-4148-A9D8-EE059E23D878} = {9AE4F390-BDAC-4945-8923-EB6E118B01E8}
 		{14DCC74A-FCDA-4A8D-B7C2-AE294BA57CD9} = {32BB194F-7665-4018-9960-FFBC45231FCB}
+		{13AAE898-08DF-4581-8F3C-1C0CFF33C5C5} = {B21D20ED-7B86-4E12-A84B-5D03FD94A417}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A85673B-2DCB-4CD3-A2FB-15954019A401}
