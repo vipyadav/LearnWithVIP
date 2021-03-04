@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace LearnWithVIP.CodingProblems.StringProblems
 {
@@ -19,13 +17,9 @@ namespace LearnWithVIP.CodingProblems.StringProblems
             string result = "";
 
             // Loop over each character.
-            foreach (char ch in str)
+            foreach (var ch in str.Where(ch => result.IndexOf(ch) == -1))
             {
-                // See if character is in the table.
-                if (result.IndexOf(ch) == -1)
-                {
-                    result += ch;
-                }
+                result += ch;
             }
             return result;
         }

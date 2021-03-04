@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Linq;
-using System.Collections;
 
 namespace LearnWithVIP.CodingProblems.StringProblems
 {
@@ -74,17 +71,14 @@ namespace LearnWithVIP.CodingProblems.StringProblems
             char[] string1CharArray = str1.ToLower().ToCharArray();
             char[] string2CharArray = str2.ToLower().ToCharArray();
 
-            int xORValue = 0;
+            int xOrValue = 0;
 
             for (int i = 0; i < string1CharArray.Length; i++)
             {
-                xORValue ^= string1CharArray[i] ^ string2CharArray[i];
+                xOrValue ^= string1CharArray[i] ^ string2CharArray[i];
             }
 
-            if (xORValue == 0)
-                return true;
-
-            return false;
+            return xOrValue == 0;
         }
     }
 }
