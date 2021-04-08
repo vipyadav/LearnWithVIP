@@ -2,13 +2,13 @@
 
 namespace LearnWithVIP.CodingProblems.StringProblems
 {
-    public class ReverseString
+    public static class ReverseString
     {
-        public static string Reverse1(string x)
+        public static string Reverse1(string str)
         {
-            var result = new char[x.Length];
-            var i = x.Length - 1;
-            foreach (char c in x)
+            var result = new char[str.Length];
+            var i = str.Length - 1;
+            foreach (char c in str)
                 result[i--] = c;
             return new string(result);
         }
@@ -25,9 +25,8 @@ namespace LearnWithVIP.CodingProblems.StringProblems
         {
             if ((str == null) || (str.Length <= 1))
                 return str;
-            return str.Last() + Reverse(str.Substring(0, str.Length -1));
+            return str.Last() + Reverse(str.Substring(0, str.Length - 1));
             // str.Last() => str[str.Length-1]
         }
     }
 }
-

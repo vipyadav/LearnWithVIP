@@ -9,7 +9,7 @@ namespace LearnWithVIP.CodingProblems.StringProblems
                 Output: vipnyad
     */
 
-    public class DuplicateCharactersInString
+    public static class DuplicateCharactersInString
     {
 
         public static string RemoveDuplicateChars(string str)

@@ -11,7 +11,7 @@ namespace LearnWithVIP.CodingProblems.StringProblems
      * 
      */
 
-    public class AnagramStrings
+    public static class AnagramStrings
     {
         // Method: 1 (Use Sorting) - Time Complexity: O(nLogn)
         public static bool AreStringsAnagramsUsingSorting(string str1, string str2)
@@ -35,7 +35,7 @@ namespace LearnWithVIP.CodingProblems.StringProblems
         }
 
 
-        // Method: 2 (count charcters using one array) Time Complexity : O(n)
+        // Method: 2 (count characters using one array) Time Complexity : O(n)
         // We can increment the value in count array for characters in str1 and decrement for characters in str2. Finally, 
         // if all count values are 0, then the two strings are anagram of each other. 
         public static bool AreStringsAnagramsUsingCountChars(string str1, string str2)

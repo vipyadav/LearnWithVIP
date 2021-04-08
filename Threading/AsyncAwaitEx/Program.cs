@@ -7,6 +7,9 @@ namespace AsyncAwaitEx
     {
         static void Main(string[] args)
         {
+            AsyncAwaitChaining asyncAwaitChaining = new AsyncAwaitChaining();
+            asyncAwaitChaining.Compute(5);
+
             Console.WriteLine("I am start of Main().");
 
             Task responseTask = Task.Run(() => BackgroundTask());
